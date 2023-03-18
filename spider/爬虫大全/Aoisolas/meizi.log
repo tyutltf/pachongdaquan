@@ -1,0 +1,149 @@
+2019-01-15 19:06:34 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: Aoisolas)
+2019-01-15 19:06:34 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2019-01-15 19:06:34 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Aoisolas', 'LOG_FILE': 'meizi.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Aoisolas.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['Aoisolas.spiders']}
+2019-01-15 19:06:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-01-15 19:06:34 [py.warnings] WARNING: G:\python46\python46\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2019-01-15 19:06:35 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'Aoisolas.middlewares.AoisolasDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Aoisolas.rotate_useragent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-01-15 19:06:35 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'Aoisolas.middlewares.AoisolasSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-01-15 19:06:36 [scrapy.middleware] INFO: Enabled item pipelines:
+['Aoisolas.pipelines.AoisolasPipeline']
+2019-01-15 19:06:36 [scrapy.core.engine] INFO: Spider opened
+2019-01-15 19:06:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-01-15 19:06:36 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider
+2019-01-15 19:06:36 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider
+2019-01-15 19:07:36 [scrapy.extensions.logstats] INFO: Crawled 3120 pages (at 3120 pages/min), scraped 3095 items (at 3095 items/min)
+2019-01-15 19:09:21 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: Aoisolas)
+2019-01-15 19:09:21 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2019-01-15 19:09:21 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Aoisolas', 'LOG_FILE': 'meizi.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Aoisolas.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['Aoisolas.spiders']}
+2019-01-15 19:09:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-01-15 19:09:21 [py.warnings] WARNING: G:\python46\python46\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2019-01-15 19:09:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'Aoisolas.middlewares.AoisolasDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Aoisolas.rotate_useragent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-01-15 19:09:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'Aoisolas.middlewares.AoisolasSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-01-15 19:09:22 [scrapy.middleware] INFO: Enabled item pipelines:
+['Aoisolas.pipelines.AoisolasPipeline']
+2019-01-15 19:09:22 [scrapy.core.engine] INFO: Spider opened
+2019-01-15 19:09:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-01-15 19:09:22 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider
+2019-01-15 19:09:22 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider
+2019-01-15 19:17:02 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: Aoisolas)
+2019-01-15 19:17:02 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2019-01-15 19:17:02 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Aoisolas', 'LOG_FILE': 'meizi.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Aoisolas.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['Aoisolas.spiders']}
+2019-01-15 19:17:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-01-15 19:17:02 [py.warnings] WARNING: G:\python46\python46\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2019-01-15 19:17:03 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'Aoisolas.middlewares.AoisolasDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Aoisolas.rotate_useragent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-01-15 19:17:03 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'Aoisolas.middlewares.AoisolasSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-01-15 19:17:03 [scrapy.middleware] INFO: Enabled item pipelines:
+['Aoisolas.pipelines.AoisolasPipeline']
+2019-01-15 19:17:03 [scrapy.core.engine] INFO: Spider opened
+2019-01-15 19:17:03 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-01-15 19:17:03 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider
+2019-01-15 19:17:03 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider
+2019-01-15 19:51:36 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: Aoisolas)
+2019-01-15 19:51:36 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2019-01-15 19:51:36 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Aoisolas', 'LOG_FILE': 'meizi.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'Aoisolas.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['Aoisolas.spiders']}
+2019-01-15 19:51:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-01-15 19:51:36 [py.warnings] WARNING: G:\python46\python46\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2019-01-15 19:51:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'Aoisolas.middlewares.AoisolasDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'Aoisolas.rotate_useragent.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-01-15 19:51:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'Aoisolas.middlewares.AoisolasSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-01-15 19:51:37 [scrapy.middleware] INFO: Enabled item pipelines:
+['Aoisolas.pipelines.AoisolasPipeline']
+2019-01-15 19:51:37 [scrapy.core.engine] INFO: Spider opened
+2019-01-15 19:51:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-01-15 19:51:37 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider
+2019-01-15 19:51:37 [AoiSolaSpider] INFO: Spider opened: AoiSolaSpider

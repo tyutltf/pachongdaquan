@@ -1,0 +1,238 @@
+2018-09-27 09:27:19 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: meizitu)
+2018-09-27 09:27:19 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2018-09-27 09:27:19 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meizitu', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'meiziimagespider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meizitu.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['meizitu.spiders']}
+2018-09-27 09:27:19 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-27 09:27:19 [py.warnings] WARNING: G:\python46\python46\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2018-09-27 09:27:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'meizitu.rotateuseragent.RotateUserAgentMiddleware',
+ 'meizitu.middlewares.MeizituDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-27 09:27:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'meizitu.middlewares.MeizituSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-27 09:27:20 [scrapy.middleware] INFO: Enabled item pipelines:
+['meizitu.pipelines.MeiziPipeline', 'meizitu.iopipelines.MztImagesPipeline']
+2018-09-27 09:27:20 [scrapy.core.engine] INFO: Spider opened
+2018-09-27 09:27:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:27:20 [mzt] INFO: Spider opened: mzt
+2018-09-27 09:27:20 [mzt] INFO: Spider opened: mzt
+2018-09-27 09:28:20 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:29:20 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:30:20 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:31:20 [scrapy.extensions.logstats] INFO: Crawled 3 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:32:21 [scrapy.extensions.logstats] INFO: Crawled 16 pages (at 13 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:33:46 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: meizitu)
+2018-09-27 09:33:46 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2018-09-27 09:33:46 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meizitu', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'meiziimagespider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meizitu.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['meizitu.spiders']}
+2018-09-27 09:33:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-27 09:33:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'meizitu.middlewares.MeizituDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-27 09:33:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'meizitu.middlewares.MeizituSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-27 09:33:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['meizitu.pipelines.MeiziPipeline', 'meizitu.iopipelines.MztImagesPipeline']
+2018-09-27 09:33:47 [scrapy.core.engine] INFO: Spider opened
+2018-09-27 09:33:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:33:47 [mzt] INFO: Spider opened: mzt
+2018-09-27 09:33:47 [mzt] INFO: Spider opened: mzt
+2018-09-27 09:34:49 [scrapy.extensions.logstats] INFO: Crawled 10 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:35:28 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: meizitu)
+2018-09-27 09:35:28 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2018-09-27 09:35:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meizitu', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'meiziimagespider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meizitu.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['meizitu.spiders']}
+2018-09-27 09:35:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-27 09:35:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'meizitu.middlewares.MeizituDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-27 09:35:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'meizitu.middlewares.MeizituSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-27 09:35:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['meizitu.pipelines.MeiziPipeline', 'meizitu.iopipelines.MztImagesPipeline']
+2018-09-27 09:35:29 [scrapy.core.engine] INFO: Spider opened
+2018-09-27 09:35:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:35:29 [mzt] INFO: Spider opened: mzt
+2018-09-27 09:35:29 [mzt] INFO: Spider opened: mzt
+2018-09-27 09:36:29 [scrapy.extensions.logstats] INFO: Crawled 6 pages (at 6 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:37:31 [scrapy.extensions.logstats] INFO: Crawled 16 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:38:33 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: meizitu)
+2018-09-27 09:38:33 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2018-09-27 09:38:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meizitu', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'meiziimagespider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meizitu.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['meizitu.spiders']}
+2018-09-27 09:38:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-27 09:38:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-27 09:38:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-27 09:38:34 [scrapy.middleware] INFO: Enabled item pipelines:
+['meizitu.pipelines.MeiziPipeline', 'meizitu.iopipelines.MztImagesPipeline']
+2018-09-27 09:38:34 [scrapy.core.engine] INFO: Spider opened
+2018-09-27 09:38:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:42:57 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: meizitu)
+2018-09-27 09:42:57 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2018-09-27 09:42:57 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meizitu', 'LOG_FILE': 'meiziimagespider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meizitu.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['meizitu.spiders']}
+2018-09-27 09:42:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-27 09:42:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-27 09:42:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-27 09:42:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['meizitu.pipelines.MeizituPipeline', 'meizitu.iopipelines.MztImagesPipeline']
+2018-09-27 09:42:58 [scrapy.core.engine] INFO: Spider opened
+2018-09-27 09:42:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:43:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.meizitu.com/a/1.html> (referer: http://www.meizitu.com/tag/banluo_5_5.html)
+Traceback (most recent call last):
+  File "G:\python46\python46\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "G:\python46\python46\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "G:\python46\python46\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "G:\python46\python46\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "G:\python46\python46\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "G:\python46\meizitu\meizitu\spiders\tupianspider.py", line 78, in parse_img
+    for i in range (1, len(img_list+1)):
+TypeError: can only concatenate list (not "int") to list
+2018-09-27 09:43:58 [scrapy.extensions.logstats] INFO: Crawled 73 pages (at 73 pages/min), scraped 17 items (at 17 items/min)
+2018-09-27 09:45:14 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: meizitu)
+2018-09-27 09:45:14 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.16299-SP0
+2018-09-27 09:45:14 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'meizitu', 'LOG_FILE': 'meiziimagespider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'meizitu.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['meizitu.spiders']}
+2018-09-27 09:45:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-09-27 09:45:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-09-27 09:45:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-09-27 09:45:14 [scrapy.middleware] INFO: Enabled item pipelines:
+['meizitu.pipelines.MeizituPipeline', 'meizitu.iopipelines.MztImagesPipeline']
+2018-09-27 09:45:14 [scrapy.core.engine] INFO: Spider opened
+2018-09-27 09:45:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-09-27 09:46:14 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 66 pages/min), scraped 10 items (at 10 items/min)
+2018-09-27 09:46:43 [scrapy.pipelines.files] WARNING: File (code: 404): Error downloading file from <GET http://mm.chinasareview.com/wp-content/uploads/2013a/03/02/08.jpg> referred in <None>
+2018-09-27 09:46:43 [scrapy.core.scraper] WARNING: Dropped: 该Item没有图片
+{'album_href': 'http://www.meizitu.com/a/86.html',
+ 'album_name': '尤物手握半球毕现翘臀撩人',
+ 'img_src': 'http://mm.chinasareview.com/wp-content/uploads/2013a/03/02/08.jpg',
+ 'img_title': '嫩模孟晓艺湿身诱惑美腿难挡',
+ 'img_urls': ['http://mm.chinasareview.com/wp-content/uploads/2013a/03/02/08.jpg'],
+ 'page_list': 'http://www.meizitu.com/a/legs_7.html',
+ 'tag_href': 'http://www.meizitu.com/a/legs.html',
+ 'tag_name': '长腿美臀'}
+2018-09-27 09:47:14 [scrapy.extensions.logstats] INFO: Crawled 87 pages (at 21 pages/min), scraped 30 items (at 20 items/min)
+2018-09-27 09:48:14 [scrapy.extensions.logstats] INFO: Crawled 94 pages (at 7 pages/min), scraped 37 items (at 7 items/min)
+2018-09-27 09:49:14 [scrapy.extensions.logstats] INFO: Crawled 126 pages (at 32 pages/min), scraped 69 items (at 32 items/min)
+2018-09-27 09:50:14 [scrapy.extensions.logstats] INFO: Crawled 151 pages (at 25 pages/min), scraped 94 items (at 25 items/min)
+2018-09-27 09:51:14 [scrapy.extensions.logstats] INFO: Crawled 174 pages (at 23 pages/min), scraped 110 items (at 16 items/min)
+2018-09-27 09:52:14 [scrapy.extensions.logstats] INFO: Crawled 184 pages (at 10 pages/min), scraped 120 items (at 10 items/min)
+2018-09-27 09:53:14 [scrapy.extensions.logstats] INFO: Crawled 185 pages (at 1 pages/min), scraped 121 items (at 1 items/min)
+2018-09-27 09:54:14 [scrapy.extensions.logstats] INFO: Crawled 186 pages (at 1 pages/min), scraped 122 items (at 1 items/min)

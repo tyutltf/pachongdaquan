@@ -1,0 +1,5 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/1.5.1 (+https://scrapy.org)
+Accept-Encoding: gzip,deflate
+Cookie: all-lj=26155dc0ee17bc7dec4aa8e464d36efd; select_city=110000; lianjia_ssid=f58b37e9-ad26-407d-a239-2212b27f88d3; lianjia_uuid=00a66740-0209-46c4-b772-cde944980c11
